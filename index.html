@@ -6,6 +6,7 @@
     <title>POS-System</title>
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/customer.css">
 </head>
 <body>
     <header>
@@ -87,6 +88,58 @@
                     <th>Customer Name</th>
                     <th>Customer Address</th>
                     <th>Customer Salary</th>
+                  </tr>
+                </thead>
+                <tbody class="tableRow"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section id="ItemManage">
+          <div>
+            <div>
+              <h1 class="title">Item Form</h1>
+    
+              <form action="" class="inputData" id="ItemForm">
+                <div>
+                  <label for="">Item Code</label>
+                  <input type="text" class="itemId" />
+                  <h5 class="invalidCode"></h5>
+                </div>
+                <div>
+                  <label for="">Item Name</label>
+                  <input type="text" class="itemName" />
+                  <h5 class="invalidName"></h5>
+                </div>
+                <div>
+                  <label for="">Item Qty</label>
+                  <input type="number" class="itemQty" />
+                  <h5 class="invalidQty"></h5>
+                </div>
+                <div>
+                  <label for="">Unit Price</label>
+                  <input type="number" class="itemPrice" />
+                  <h5 class="invalidPrice"></h5>
+                </div>
+    
+                <div class="buttons">
+                  <button type="submit" class="saveBtn">Save Item</button>
+                  <button class="removeBtn">Remove</button>
+                  <button class="updateBtn">Update</button>
+                  <button class="searchBtn">GetAll</button>
+                  <button class="clearBtn">Clear All</button>
+                </div>
+              </form>
+            </div>
+            <div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item Code</th>
+                    <th>Item Name</th>
+                    <th>Item Qty</th>
+                    <th>Item Price</th>
                   </tr>
                 </thead>
                 <tbody class="tableRow"></tbody>
