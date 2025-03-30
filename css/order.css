@@ -1,0 +1,174 @@
+.invoiceDetails,
+.ItemSelect,
+.TotalCal {
+  width: 39.3%;
+  padding: 20px;
+  border: 1px solid #313131;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+#OrderManage > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+#OrderManage > :first-child > div {
+  margin-top: 12vh;
+}
+
+#OrderManage h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #f6f6f6;
+  background-color: green;
+  border-radius: 12px;
+  padding: 10px 20px;
+}
+
+#OrderManage .invoiceDetails form div > div,
+#OrderManage .invoiceDetails form > :last-child {
+  margin-top: 0;
+  margin: 10px 15px;
+}
+
+#OrderManage .invoiceDetails form > :first-child {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#OrderManage .ItemSelect form > :first-child {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#OrderManage .ItemSelect form div > div,
+#OrderManage .ItemSelect form > :last-child {
+  margin-top: 0;
+  margin: 10px 15px;
+}
+
+#OrderManage .ItemSelect form > :nth-child(2) {
+  display: grid;
+  grid-template-columns: 40% 39% 20%;
+  margin: 0;
+}
+
+.ItemSelect > :last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.ItemSelect button {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  margin-top: 30px;
+  margin-right: 20px;
+  background-color: #db3843;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: all ease-in-out 0.25s;
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.ItemSelect button:hover {
+  background-color: #b22222;
+}
+
+#OrderManage .TotalCal h1,
+.TotalCal h2 {
+  background-color: transparent;
+  padding: 0;
+  font-size: 30px;
+  color: #147788;
+  font-weight: 400;
+}
+
+.TotalCal {
+  width: 20%;
+  border-radius: 15px;
+}
+
+.TotalCal h2 {
+  color: #d43a40;
+}
+
+.TotalCal form > :first-child {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.TotalCal > :last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.TotalCal button {
+  padding: 20px 30px;
+  border: 1px solid #c4c4c4;
+  cursor: pointer;
+  background-color: #13792e;
+  color: white;
+  margin-top: 50px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: all ease-in-out 0.25s;
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.TotalCal button:hover {
+  background-color: #0d6725;
+}
+
+.tableRow {
+  height: auto;
+}
+
+.table > div,
+.tableRows > div {
+  display: flex;
+}
+
+.table,
+.tableRows {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5.7vw;
+}
+
+.table > div > div,
+.tableRows > div > div {
+  width: 18vw;
+  height: 4vw;
+  border: 1px solid #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#OrderManage > .mainTable > .table > div > div {
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+
+.tableRows > div > div {
+  width: 20vw;
+}
+
+#OrderManage > :last-child {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  max-height: 34vh;
+}
+
+h5 {
+  font-size: 15px;
+  color: #ff4343;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 7.8vh;
+}
