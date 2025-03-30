@@ -1,3 +1,22 @@
+#CustomerManage,
+#ItemManage {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#CustomerManage > div,
+#ItemManage > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+#CustomerManage > :first-child > div,
+#ItemManage > :first-child > div {
+  margin-top: 4vh;
+}
+
 .title {
   font-size: 2rem;
   font-weight: 500;
@@ -10,11 +29,19 @@ form div {
   margin-top: 34px;
 }
 
+#CustomerManage form label,
+#ItemManage form label {
+  font-size: 1.3rem;
+  font-weight: 450;
+  margin-bottom: 5px;
+}
+
 form div input,
 select {
   padding: 10px;
   border: 1px solid #c4c4c4;
   border-radius: 5px;
+  width: 80%;
 }
 
 .buttons {
@@ -68,7 +95,7 @@ select {
 
 #CustomerManage table,
 #ItemManage table {
-  margin-left: 50px;
+  margin-left: -150px;
   border-collapse: collapse;
 }
 
@@ -85,5 +112,6 @@ select {
 #CustomerManage th,
 #ItemManage th {
   background-color: #c4202b;
+  font-size: 1.2rem;
   color: #eaeaea;
 }

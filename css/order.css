@@ -11,10 +11,11 @@
 #OrderManage > div {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 50px;
 }
 
 #OrderManage > :first-child > div {
-  margin-top: 12vh;
+  margin-top: 4vh;
 }
 
 #OrderManage h1 {
@@ -151,6 +152,8 @@
 
 #OrderManage > .mainTable > .table > div > div {
   background-color: #1abc9c;
+  font-size: 1.2rem;
+  font-weight: bold;
   color: #ffffff;
 }
 
