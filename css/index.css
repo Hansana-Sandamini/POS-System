@@ -50,3 +50,24 @@ header ul li a {
   font-weight: bold;
   color: red;
 }
+
+main {
+  padding-top: 8vh;
+  width: 100%;
+  min-height: calc(100vh - 8vh);
+  overflow-x: hidden;
+}
+
+section {
+  height: auto;
+  min-height: calc(100vh - 8vh);
+  width: 100%;
+  background-color: #f8f9fa;
+  display: block;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section > :first-child > div {
+  margin-top: 0;
+}
