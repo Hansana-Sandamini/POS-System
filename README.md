@@ -13,7 +13,7 @@ A complete Point of Sale (POS) system for efficient business management with cus
   - Add, update, and delete customer records
   - View all customers in a responsive table
   - Form validation for customer data
-  ![Screenshot from 2025-03-31 21-40-15](https://github.com/user-attachments/assets/4170ebb2-50fe-44c4-aa68-87cdf669fac9)
+  ![Screenshot from 2025-03-31 21-46-29](https://github.com/user-attachments/assets/50b34447-928d-4fb5-bbe4-678a406f2dd4)
 
 
 - **Inventory Management**
