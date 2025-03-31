@@ -1,0 +1,297 @@
+@media (max-width: 1024px) {
+  header {
+    padding: 15px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header ul {
+    margin-top: 15px;
+    margin-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header ul li {
+    padding: 10px 15px;
+    margin: 5px;
+  }
+
+  #CustomerManage > div,
+  #ItemManage > div {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    gap: 5px !important;
+  }
+
+  #CustomerManage > div > :first-child,
+  #ItemManage > div > :first-child {
+    order: 1;
+    margin-bottom: 5px !important;
+  }
+
+  #CustomerManage > div > :nth-child(2),
+  #ItemManage > div > :nth-child(2),
+  #OrderManage > div > :nth-child(2) {
+    margin-top: 5px !important;
+  }
+
+  #OrderManage > div > :nth-child(2),
+  #OrderManage > div > :nth-child(3) {
+    margin-top: 15px !important;
+  }
+
+  #CustomerManage > div > :last-child,
+  #ItemManage > div > :last-child {
+    order: 2;
+    margin-top: 5px !important;
+  }
+
+  #CustomerManage > :first-child > div,
+  #ItemManage > :first-child > div,
+  #OrderManage > :first-child > div {
+    margin-top: 15vh;
+  }
+
+  #CustomerManage form,
+  #ItemManage form,
+  #CustomerManage table,
+  #ItemManage table {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #CustomerManage table,
+  #ItemManage table,
+  #OrderManage table {
+    margin-left: 0;
+  }
+
+  #OrderManage > div {
+    flex-direction: column;
+    gap: 0px !important;
+  }
+
+  .invoiceDetails,
+  .ItemSelect,
+  .TotalCal {
+    width: 100%;
+  }
+
+  .table,
+  .mainTable,
+  .tableRows {
+    padding: 0 2vw;
+  }
+
+  .table > div > div,
+  .tableRows > div > div {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .buttons {
+    gap: 6px !important;
+    margin: 8px 0 5px 0 !important;
+  }
+
+  .buttons button {
+    padding: 8px 12px !important;
+    font-size: 0.85rem !important;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  form label {
+    font-size: 0.9rem !important;
+    margin-bottom: 3px !important;
+  }
+
+  form div input,
+  form div select {
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  section > :first-child > div {
+    margin-top: 20vh;
+  }
+
+  .welcome-content h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-content p {
+    font-size: 1.2rem;
+  }
+
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  form div {
+    margin-top: 20px;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .buttons button {
+    padding: 12px 18px;
+    font-size: 16px !important;
+  }
+
+  #OrderManage .invoiceDetails form > :first-child,
+  #OrderManage .ItemSelect form > :first-child,
+  #OrderManage .ItemSelect form > :nth-child(2),
+  .TotalCal form > :first-child {
+    grid-template-columns: 1fr;
+  }
+
+  #OrderManage h1 {
+    font-size: 1.2rem;
+  }
+
+  .TotalCal h1 {
+    font-size: 24px !important;
+  }
+
+  .TotalCal h2 {
+    font-size: 20px !important;
+  }
+
+  section > div > div:nth-child(2) {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header ul li {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .welcome-container {
+    height: 40vh;
+    margin-bottom: 50px;
+  }
+
+  .welcome-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .welcome-content p {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  form div input,
+  select {
+    padding: 8px;
+  }
+
+  .buttons button {
+    padding: 10px 15px;
+    font-size: 14px !important;
+  }
+
+  .ItemSelect button,
+  .TotalCal button {
+    padding: 12px 20px;
+    font-size: 16px !important;
+  }
+
+  #CustomerManage th,
+  #CustomerManage td,
+  #ItemManage th,
+  #ItemManage td,
+  #OrderManage th,
+  #OrderManage td {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  #OrderManage > :last-child {
+    max-height: 25vh;
+  }
+
+  h5 {
+    font-size: 12px;
+    margin-top: 6vh;
+  }
+}
+
+@media (max-width: 360px) {
+  header .sectionName {
+    font-size: 1.2rem;
+  }
+
+  header ul li {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .welcome-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .buttons {
+    gap: 5px;
+  }
+
+  .buttons button {
+    padding: 8px 12px;
+  }
+
+  .ItemSelect button,
+  .TotalCal button {
+    padding: 10px 15px;
+  }
+
+  #CustomerManage th,
+  #CustomerManage td,
+  #ItemManage th,
+  #ItemManage td,
+  #OrderManage th,
+  #OrderManage td {
+    font-size: 12px;
+  }
+}
+
+@media (max-height: 480px) and (orientation: landscape) {
+  header {
+    height: auto;
+    padding: 10px;
+  }
+
+  section {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .welcome-container {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  #OrderManage > :last-child {
+    max-height: 25vh;
+  }
+}
