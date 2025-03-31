@@ -12,18 +12,17 @@ $(".nav-link").click(function (event) {
 
     $(targetSection).show();
     switch (targetSection) {
-    case "#CustomerManage":
-        $(".sectionName").text("Customer Manage");
-        break;
-    case "#ItemManage":
-        $(".sectionName").text("Item Manage");
-        break;
-    case "#OrderManage":
-        $(".sectionName").text("Order Manage");
-        break;
-    default:
-        $(".sectionName").text("POS System");
-    //   $("header").css("background-color", "#3498db");
-    }
-});
+        case "#CustomerManage":
+            $(".sectionName").text("Customer Manage");
+            break;
+        case "#ItemManage":
+            $(".sectionName").text("Item Manage");
+            break;
+        case "#OrderManage":
+            $(".sectionName").text("Order Manage");
+            break;
+        default:
+            $(".sectionName").text("POS System");
+        }
+    });
 });
