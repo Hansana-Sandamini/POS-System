@@ -78,6 +78,11 @@
   background-color: #b22222;
 }
 
+#OrderManage form label {
+  font-size: 1.2rem;
+  font-weight: 450;
+}
+
 #OrderManage .TotalCal h1,
 .TotalCal h2 {
   background-color: transparent;
